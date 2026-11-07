@@ -9,7 +9,7 @@ LLM, image, video, vector DB and AI agent use cases.
 
 `Python` · `BytePlus ModelArk` 
 
-### 🎬 [Ecommerce-Support-Agent](https://github.com/ankssri/ecommerce-agent-orchestration-demo) — Human gated E-commerce agent with Jev
+### 🗂️ [Ecommerce-Support-Agent](https://github.com/ankssri/ecommerce-agent-orchestration-demo) — Human gated E-commerce agent with Jev
 Complete project for an electronics e-commerce customer support agent with human approval gate for high-risk or policy-sensitive refund flows.
 Jev is used a classifier to have faster response for next step orchestration.
 Customer, order, product, shipping, payment, and policy are modeled as separate systems behind MCPs.
@@ -17,7 +17,7 @@ The orchestrator uses the LLM for intent understanding and reply wording, while 
 
 `Python` · `Claude` · `BytePlus Seed LLM` · `Jev`
 
-### 🧪 [aprntc-robotics](https://github.com/ankssri/aprntc-robotics) — Self improving agent for robotics training
+### 🤖 [aprntc-robotics](https://github.com/ankssri/aprntc-robotics) — Self improving agent for robotics training
  Many robots are now driven by trained AI models. Teams keep training new, hopefully better versions. But putting a new version on a real robot is risky: a model that looks better in testing can still fail in new ways, and on a physical machine a failure can mean damage or injury.
 
 What aprntc-robotics does. It answers one question safely: is this new model actually better than the one running now, and if so, can we switch to it and undo the switch instantly if something goes wrong? It tests the new model, decides with statistics plus human approval, switches, and keeps a full history so any switch can be reversed. history so any switch can be reversed.
